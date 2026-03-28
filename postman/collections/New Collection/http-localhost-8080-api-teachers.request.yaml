@@ -1,0 +1,31 @@
+$kind: http-request
+name: http://localhost:8080/api/teachers
+url: http://localhost:8080/api/teachers
+method: POST
+headers:
+  Authorization: Bearer
+    eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0ZWFjaGVyLW1hbmFnZW1lbnQtc3lzdGVtIiwiaWF0IjoxNzc0Njc5OTA4LCJleHAiOjE3NzQ3NjYzMDgsInVpZCI6IjEiLCJlbWFpbCI6InRlc3RAZXhhbXBsZS5jb20ifQ.TCc5y5clNnQubw7gQyj299fi5LwDdqq7m4oqMP4PPn8
+body:
+  type: json
+  content: "{\r
+
+    \    \"email\": \"teacher@example.com\",\r
+
+    \    \"first_name\": \"Jane\",\r
+
+    \    \"last_name\": \"Smith\",\r
+
+    \    \"password\": \"123456\",\r
+
+    \    \"university_name\": \"Delhi University\",\r
+
+    \    \"gender\": \"Female\",\r
+
+    \    \"year_joined\": 2020,\r
+
+    \    \"department\": \"Computer Science\",\r
+
+    \    \"phone\": \"9876543210\"\r
+
+    }"
+order: 1774681089780
